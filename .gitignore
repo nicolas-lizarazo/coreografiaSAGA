@@ -1,0 +1,55 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Archivos de datos locales ###
+*.log
+*.db
+data/
+.mv.db
+.trace.db
+
+### Variables de entorno ###
+.env
+.env.local
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+
+### Archivos que no deben ir al repo ###
+*.rpm
+*.deb
+*.dmg
+*.exe
+*.msi
